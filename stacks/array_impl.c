@@ -1,3 +1,5 @@
+// C program for array implementation of stack
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -16,7 +18,7 @@ void push(stack *st, int data)
     else
     {
         st->arr[++st->top] = data;
-        printf("%d inserted at top of stack\n", data);
+        printf("%d inserted on top of stack\n", data);
     }
 }
 int pop(stack *st)
