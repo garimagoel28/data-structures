@@ -1,4 +1,4 @@
-// C program for implementation of queue using array
+// C program for implementation of queue using array (here object of structure "queue" is used)
 
 #include <stdio.h>
 #include <stdlib.h>
